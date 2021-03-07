@@ -31,7 +31,7 @@ class CyclicRotation {
     		
     		Random rand = new Random();
     		
-    		int k = rand.nextInt(100);
+    		int k = rand.nextInt(101);
     		int[] array = {1,2,3,4,5,6};
 
     		int[] result = CyclicRotation.solution(array, k);
